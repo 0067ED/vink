@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "outDir": "./built/",
+        "sourceMap": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "module": "es2015",
+        "moduleResolution": "node",
+        "target": "es5",
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "baseUrl": "src",
+        "paths": {
+            "@/*": ["./*"]
+        },
+        "lib": [
+            "dom",
+            "es5",
+            "scripthost",
+            "es2015.promise",
+            "es2015.core",
+            "es2015.collection",
+            "es2017"
+        ]
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
